@@ -48,7 +48,7 @@ def start():
 
 # label section
 lbl_info = Label(win, text= 'please enter your time in second -->', font= 'Arial 10')
-lbl_time = Label(win, fg= 'black', bg= 'yellow', font= '14')
+lbl_time = Label(win, fg= 'yellow', bg= 'black', font= 'arial 28 bold')
 
 lbl_info.place(x= 15, y= 75)
 lbl_time.place(x= 190, y=25)
