@@ -50,7 +50,7 @@ lbl_info_game = Label(win_game, text= 'نام رنگ مورد نظر را در �
 lbl_info_time = Label(win_game, text= ':زمان')
 lbl_info_score = Label(win_game, text= ':امتیاز')
 lbl_time = Label(win_game, bg= 'yellow', text= time )
-lbl_score = Label(win_game, bg= 'yellow', text= score)
+lbl_score = Label(win_game, bg= 'red', text= score)
 lbl_color = Label(win_game, bg= random_color, text= 'color', font= 'Bold', width= 10,)
 
 lbl_info_btn_start_game = Label(win_game, text= 'برای شروع بازی دکمه را فشار دهید\n شما 30 ثانیه زمان داربد\n موفق باشید')
@@ -72,7 +72,7 @@ ent_player.place(x= 160, y= 150)
 
 # button section
 btn_run = Button(win_game, text= 'run', bg= 'yellow', font= 'Arial 10', border= 5, command= run, state= DISABLED)
-btn_start_game = Button(win_game, text= 'شروع بازی', width= 10, command= start_game)
+btn_start_game = Button(win_game, text= 'start', width= 10, command= start_game)
 
 btn_run.place(x= 200, y= 200)
 btn_start_game.place(x=65, y= 120)
